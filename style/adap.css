@@ -1,4 +1,4 @@
-@media (max-width: 375px){
+@media (max-width: 720px){
 	.container{
 		width: 100%;
 	}
@@ -9,7 +9,7 @@
 	.text{
 		font-size: 4.80vw;
         line-height: 5.87vw;
-        list-style: medium;
+        font-weight: 500;
 	}
     header.main-header{
     	display: none;
@@ -45,10 +45,16 @@
     	margin: 22.13vw 0 0 0;
     	width: 100%;
     }
+    .aboutme__head{
+    	display: none;
+    }
+    .mobile__aboutme__head{
+    	margin: 21.60vw auto 0 auto;
+    }
     h2{
 	list-style: bold;
 	font-size: 9.07vw;
-    line-height: 11.20vw;
+    line-height: 11.20vw; 
     }
     .notmobile-text{
     	display: none;
@@ -59,7 +65,7 @@
     }
     .mobile__aboutme__text-one{
     	width: 60vw;
-    	margin: 0 auto 8vw auto;
+    	margin: 8vw auto 0vw auto;
     }
     .mobile__aboutme__text-two{
     	width: 80vw;
@@ -67,7 +73,7 @@
     }
     .mobile__aboutme__text-three{
     	width: 70vw;
-    	margin: 0 auto 8vw auto;
+    	margin: 0 auto 20.27vw auto;
     }
     /*third section*/
     .skills{
@@ -204,6 +210,7 @@
 	    position: relative;
 	    width: 8vw;
 	    height: 5.33vw;
+	    margin: 5vw 0 0 0;
     }
     .header__burger span{
     	position: fixed;
@@ -262,7 +269,7 @@
     }
      .header__list li{
     	margin: 0 0 18.13vw 0;
-    	font-size: 9.07vw;
+    	font-size: 7vw;
     }
     .header__link{
         text-decoration: none;
@@ -281,7 +288,9 @@
 
 
 
-@media (min-width: 377px){
+
+
+@media (min-width: 721px){
 	.image-second{
 		display: none;
 	}

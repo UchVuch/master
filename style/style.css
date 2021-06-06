@@ -52,7 +52,7 @@ a {
 .text{
 	font-size: 0.94vw;
     line-height: 1.15vw;
-    list-style: medium;
+    font-weight: medium;
 }
 .me__language{	
 	width: 5.73vw;
@@ -96,7 +96,7 @@ h2{
 	margin: 0 auto 2.08vw auto;
 }
 .aboutme__text-three{
-    width: 15.92vw;
+    width: 17vw;
     text-align: center;	
     margin: 0 auto 7.40vw auto;
 }
